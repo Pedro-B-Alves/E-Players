@@ -283,34 +283,81 @@ img{
     height: 2.1875em;
     margin: 0em 0.5em;
 }
-.content-rodape{
+.rodape{
     width: 100%;
-    height: 13.0625em;
+    height: 12em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content-rodape{
+    width: 32%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.rodape-posiçao{
+    display: flex;
 }
 .rodape-links{
     color: #fff;
+    margin-left: 5em;
+}
+.rodape-links h2{
+    font-size: 1.5em;
+}
+.rodape-links li{
     margin-left: 2em;
 }
 .rodape-links ul{
-    list-style-type: none;
+    margin-top: 0.5em;
 }
 .rodape-links ul a{
     text-decoration: none;
     color: #fff;    
 }
 .rodape-logo{
-    width: 8em;
-    height: 3em;
-    padding-top: 0.9em;
+    max-width: 18.75em;
 }
-.rodape-direitos{
+.newslatter{
+    margin-right: 11em;
+}
+.newslatter h2{
+    font-size: 0.875em;
+    margin-bottom: 0.5em;
     color: #fff;
-    font-weight: bold;
-    margin-right: 2em;
 }
+.newslatter form{
+    display: flex;
+}
+.newslatter input[type="email"]{
+    width: 12.5em;
+    height: 2.5em;
+    font-size: 1.1em;
+    padding-left: 1em;
+}
+.newslatter input[type="email"]::placeholder{
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+}
+.newslatter input[type="submit"]{
+    width: 9.75em;
+    height: 2.5em;
+    font-size: 1.1em;
+    background-color: #8326EF;
+    color: #fff;
+    text-transform: uppercase;
+}
+.siga-nos{
+    margin-top: 1em;
+    margin-right: 11em;
+    color: #fff;
+    display: flex;
+}
+/* página cadastro */
+
 @media screen and (max-width: 74.93em){
 
 }
