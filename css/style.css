@@ -405,14 +405,7 @@ img{
         margin-right: 6em;
     }
 }
-/* Até 991px */
-@media screen and (max-width: 61.937em){
-    .menu{
-        margin-right: 2em;
-    }
-    .menu a{
-        font-size: 1.2em;
-    }
+@media screen and (max-width: 72.6875em){
     .banner-text{
         width: 60%;
         margin-right: -1em;
@@ -427,7 +420,20 @@ img{
         font-size: 1.5em;
     }
     .jogos{
+        max-width: 70em;
+        margin-left: 1em;
+    }
+}
+@media screen and (max-width: 65.6875em){
+    .menu{
+        margin-right: 2em;
+    }
+    .menu a{
+        font-size: 1.2em;
+    }
+    .jogos{
         max-width: 58em;
+        margin-left: 2em;
     }
     .jogos ul a:hover img{
         transition: 0.2s;
@@ -458,8 +464,11 @@ img{
         margin-right: 5.5em;
     }
 }
-/* Até 767px */
-@media screen and (max-width: 47.93em){
+/* Até 991px */
+@media screen and (max-width: 61.937em){
+
+}
+@media screen and (max-width:60.6875em){
     .topo img{
         max-width: 8em;
         margin-left: 4em;
@@ -539,8 +548,11 @@ img{
         margin-right: 5.4em;
     }
 }
-/* Até 575px */
-@media screen and (max-width: 35.93em){
+/* Até 767px */
+@media screen and (max-width: 47.93em){
+
+}
+@media screen and (max-width: 45.1875em){
     .topo img{
         margin-left: 3em;
     }
@@ -596,4 +608,8 @@ img{
     .siga-nos img{
         max-width: 2.3em;        
     }
+}
+/* Até 575px */
+@media screen and (max-width: 35.93em){
+
 }
