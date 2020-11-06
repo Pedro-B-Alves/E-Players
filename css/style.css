@@ -611,10 +611,12 @@ img{
     .jogos-aovivo, .jogos-embreve{
         font-size: 0.67em;
     }
+    .horario{
+        width: 15em;
+    }
     .horario-position{
-        width: 36%;
-        top: 1%;
-        left: 60%;
+        position: unset;
+        margin-left: 4em;
     }
     .rodape-links h2{
         font-size: 0.8em;
@@ -637,7 +639,7 @@ img{
         font-size: 0.5em;
     }
     .siga-nos{
-        font-size: 0.6em;
+        font-size: 0.5em;
         margin-right: 10em;
     }
     .siga-nos img{
