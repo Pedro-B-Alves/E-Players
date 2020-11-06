@@ -16,14 +16,14 @@
                 <img src="img/logo.svg" alt="Logo E-Players">
             </a>
             <nav class="menu">
-                <ul>
+                <ul id="links">
                     <li><a href="index.html">Início</a></li>
                     <li><a href="#">Campeonatos</a></li>
                     <li><a href="#">Resultados</a></li>
                     <li><a href="#">Notícias</a></li>
                     <li><a href="#">Login/Cadastro</a></li>
                 </ul>
-                    <a href="#" id="menu-bars">
+                    <a href="#" id="menu-bars" onclick="meuMenu()">
                         <i class="fas fa-bars"></i>
                     </a>
             </nav>
@@ -284,6 +284,15 @@
             </div>
         </div>
     </footer>
-
+    <script>
+        function meuMenu() {
+          var ulDoMenu = document.getElementById("links");
+          if (ulDoMenu.style.display === "flex") {
+            ulDoMenu.style.display = "none";
+          } else {
+            ulDoMenu.style.display = "flex";
+          }
+        }
+        </script>
 </body>
 </html>
