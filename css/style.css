@@ -450,7 +450,7 @@ img{
         border: solid 0.095em #fff;
     }
     .newslatter input[type="email"]{
-        width: 11em;
+        width: 12em;
         font-size: 1em;
     }
     .newslatter input[type="submit"]{
@@ -465,9 +465,9 @@ img{
     }
 }
 /* Até 991px */
-@media screen and (max-width: 61.937em){
+/* @media screen and (max-width: 61.937em){
 
-}
+} */
 @media screen and (max-width:60.6875em){
     .topo img{
         max-width: 8em;
@@ -536,22 +536,22 @@ img{
         font-size: 1em;
     }
     .newslatter input[type="email"]{
-        width: 7em;
+        width: 14em;
         font-size: 0.7em;
     }
     .newslatter input[type="submit"]{
-        width: 7em;
+        width: 10em;
         font-size: 0.7em;
     }
     .siga-nos{
         font-size: 0.7em;
-        margin-right: 5.4em;
+        margin-right: 9em;
     }
 }
 /* Até 767px */
-@media screen and (max-width: 47.93em){
+/* @media screen and (max-width: 47.93em){
 
-}
+} */
 @media screen and (max-width: 45.1875em){
     .topo img{
         margin-left: 3em;
@@ -599,7 +599,12 @@ img{
         margin-left: -4em;
     }
     .newslatter input[type="email"]{
-        width: 6em;
+        width: 7em;
+        font-size: 0.5em;
+    }
+    .newslatter input[type="submit"]{
+        width: 7em;
+        font-size: 0.5em;
     }
     .siga-nos{
         font-size: 0.6em;
@@ -610,6 +615,6 @@ img{
     }
 }
 /* Até 575px */
-@media screen and (max-width: 35.93em){
+/* @media screen and (max-width: 35.93em){
 
-}
+} */
